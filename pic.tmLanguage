@@ -13,7 +13,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(?i)(v)?(addwf|andwf|clrf|clrw|comf|decf|decfsz|incf|incfsz|iorwf|movf|movwf|nop|rlf|rrf|subwf|swapf|xorwf|bcf|bsf|btfsc|btfss|addlw|andlw|call|clrwdt|goto|iorlw|movlw|retfie|retlw|return|sleep|sublw|xorlw)\b</string>
+			<string>\b(?i)(v)?(addwf|andwf|clrf|clrw|comf|decf|decfsz|incf|incfsz|iorwf|movf|movwf|nop|rlf|rrf|subwf|swapf|xorwf|bcf|bsf|btfsc|btfss|addlw|andlw|call|clrwdt|goto|iorlw|movlw|option|retfie|retlw|return|sleep|tris|sublw|xorlw|org)\b</string>
 			<key>name</key>
 			<string>keyword.control.assembly</string>
 		</dict>
